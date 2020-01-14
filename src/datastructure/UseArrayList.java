@@ -1,6 +1,8 @@
 package datastructure;
 
+import javax.swing.text.html.HTMLDocument;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class UseArrayList {
 
@@ -21,8 +23,8 @@ public class UseArrayList {
 		stName.add(" Rasel");
 		stName.add("Mitu");
 
-		stName.remove("Rakib");// remove Rakib from the list
-		stName.remove(2);// remove element of index 2 which is Joseph
+		stName.remove("Rakib");// remove Rakib
+		stName.remove(2);// remove element of index 2 
 		System.out.println(stName.get(3));
 
 		System.out.println("**********");
@@ -33,9 +35,12 @@ public class UseArrayList {
 			System.out.println(s);
 		}
 
-
-
-
+		System.out.println("*******");
+		System.out.println(" Using While loop with iterator");
+    Iterator iterator = stName.iterator();
+    while (iterator.hasNext()){
+		System.out.println(iterator.next());
+	}
 
 
 	}
