@@ -30,7 +30,7 @@ public class UseMap {
 		stInfo1.add("34@gmail.com");
 
 
-		List<String> stInfo2 = new LinkedList<>();
+		List<String> stInfo2 = new LinkedList<String>();
        stInfo2.add("26 Ditmas Street ");
 		stInfo2.add("124@gmail.com");
 
