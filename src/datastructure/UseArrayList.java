@@ -24,7 +24,7 @@ public class UseArrayList {
 		stName.add("Mitu");
 
 		stName.remove("Rakib");// remove Rakib
-		stName.remove(2);// remove element of index 2 
+		stName.remove(2);// remove element of index 2
 		System.out.println(stName.get(3));
 
 		System.out.println("**********");
