@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
-    </list>
+    <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,23 +33,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
+  <component name="RunManager" selected="Application.UseMap">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Anagram" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="DuplicateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.problems.DuplicateWord" />
@@ -112,6 +93,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -137,17 +132,17 @@
     <list>
       <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.Permutation" />
-      <item itemvalue="Application.Anagram" />
       <item itemvalue="Application.DuplicateWord" />
       <item itemvalue="Application.PrimeNumber" />
+      <item itemvalue="Application.UseMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.DuplicateWord" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Anagram" />
       </list>
     </recent_temporary>
   </component>
@@ -181,26 +176,26 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="689" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.960@0.23.1680.960" timestamp="1578862706285" />
-    <state width="1151" height="255" key="GridCell.Tab.0.bottom" timestamp="1579192839028">
+    <state width="1151" height="255" key="GridCell.Tab.0.bottom" timestamp="1579193081798">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910917" />
-    <state width="1151" height="255" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1579192839028" />
-    <state width="1151" height="255" key="GridCell.Tab.0.center" timestamp="1579192839028">
+    <state width="1151" height="255" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1579193081798" />
+    <state width="1151" height="255" key="GridCell.Tab.0.center" timestamp="1579193081797">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1151" height="255" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1579192839028" />
-    <state width="1151" height="255" key="GridCell.Tab.0.left" timestamp="1579192839027">
+    <state width="1151" height="255" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1579193081797" />
+    <state width="1151" height="255" key="GridCell.Tab.0.left" timestamp="1579193081796">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1151" height="255" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1579192839027" />
-    <state width="1151" height="255" key="GridCell.Tab.0.right" timestamp="1579192839028">
+    <state width="1151" height="255" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1579193081796" />
+    <state width="1151" height="255" key="GridCell.Tab.0.right" timestamp="1579193081797">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1151" height="255" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1579192839028" />
+    <state width="1151" height="255" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1579193081797" />
     <state x="519" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1579190356196">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
