@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo extends AbstractClass implements Employee{
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -20,27 +20,82 @@ public class EmployeeInfo {
 	/*
 	 * declare few static and final fields and some non-static fields
 	 */
-	private String name;
-	private int employeeID;
 	static String companyName;
+	final String cmAddress="abc street";
+
+	private String employeeName;
+	private int employeeID;
+	private String assignDepartment;
+	private static double salary;
+
+
 	
 	/*
 	 * You must implement the logic for below 2 methods and 
 	 * following 2 methods are prototype as well for other methods need to be design,
 	 * as you will come up with the new ideas.
 	 */
-	
+
+	public static String getCompanyName() {
+		return companyName;
+	}
+
+	public static void setCompanyName(String companyName) {
+		EmployeeInfo.companyName = companyName;
+	}
+
+	public String getCmAddress() {
+		return cmAddress;
+	}
+
+	public String getEmployeeName() {
+		return employeeName;
+	}
+
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
+
+	public int getEmployeeID() {
+		return employeeID;
+	}
+
+	public void setEmployeeID(int employeeID) {
+		this.employeeID = employeeID;
+	}
+
+	public String getAssignDepartment() {
+		return assignDepartment;
+	}
+
+	public void setAssignDepartment(String assignDepartment) {
+		this.assignDepartment = assignDepartment;
+	}
+
+	public static double getSalary() {
+		return salary;
+	}
+
+	public static void setSalary(double salary) {
+		EmployeeInfo.salary = salary;
+	}
+
+
+
+
+
+
 	/*
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
 	public EmployeeInfo(int employeeId){
-		
+
 	}
     public EmployeeInfo(String name, int employeeId){
-		
+
 	}
-	
+
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
 	 * Then it will return the total yearly bonus. So you need to implement the logic.
@@ -77,6 +132,27 @@ public class EmployeeInfo {
 
 		return total;
 	}
+
+	@Override
+	public int employeeAge() {
+		return 0;
+	}
+
+	@Override
+	public int employeeId() {
+		return 0;
+	}
+
+	@Override
+	public String employeeName() {
+		return null;
+	}
+
+	@Override
+	public int calculateSalary() {
+		return 0;
+	}
+
 	private static class DateConversion {
 
 		public DateConversion(Months months){}

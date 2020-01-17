@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/design/AbstractClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,45 +50,17 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseMap">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="DuplicateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.DuplicateWord" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.Factorial" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.problems.*" />
+          <option name="PATTERN" value="math.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,6 +109,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnitTestingStringProblem" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.problems" />
+      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -132,20 +136,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="design" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="design" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Palindrome" />
-      <item itemvalue="Application.Permutation" />
-      <item itemvalue="Application.DuplicateWord" />
+      <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.PrimeNumber" />
       <item itemvalue="Application.UseMap" />
+      <item itemvalue="TestNG.UnitTestingStringProblem" />
+      <item itemvalue="TestNG.design" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="TestNG.UnitTestingStringProblem" />
+        <item itemvalue="TestNG.design" />
         <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.DuplicateWord" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -175,35 +196,39 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="956" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1579238487399">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="956" y="217" key="#com.intellij.ide.util.MemberChooser/0.23.1680.956@0.23.1680.956" timestamp="1579238487399" />
     <state x="689" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578862706285">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="689" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.960@0.23.1680.960" timestamp="1578862706285" />
-    <state width="1151" height="255" key="GridCell.Tab.0.bottom" timestamp="1579193081798">
+    <state width="1032" height="255" key="GridCell.Tab.0.bottom" timestamp="1579245213188">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910917" />
-    <state width="1151" height="255" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1579193081798" />
-    <state width="1151" height="255" key="GridCell.Tab.0.center" timestamp="1579193081797">
+    <state width="1032" height="255" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1579245213188" />
+    <state width="1032" height="255" key="GridCell.Tab.0.center" timestamp="1579245213187">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1151" height="255" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1579193081797" />
-    <state width="1151" height="255" key="GridCell.Tab.0.left" timestamp="1579193081796">
+    <state width="1032" height="255" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1579245213187" />
+    <state width="1032" height="255" key="GridCell.Tab.0.left" timestamp="1579245213187">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1151" height="255" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1579193081796" />
-    <state width="1151" height="255" key="GridCell.Tab.0.right" timestamp="1579193081797">
+    <state width="1032" height="255" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1579245213187" />
+    <state width="1032" height="255" key="GridCell.Tab.0.right" timestamp="1579245213187">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1151" height="255" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1579193081797" />
-    <state x="519" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1579190356196">
+    <state width="1032" height="255" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1579245213187" />
+    <state x="519" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1579277287335">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="519" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579017680889" />
-    <state x="519" y="326" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1579190356196" />
+    <state x="519" y="326" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1579277287335" />
     <state x="791" y="114" key="refactoring.ChangeSignatureDialog" timestamp="1579191417569">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
@@ -218,6 +243,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MidtermJuly2019$design.ic" NAME="design Coverage Results" MODIFIED="1579236815201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>design.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
