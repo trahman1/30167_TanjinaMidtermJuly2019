@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/AbstractClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,11 +148,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.PrimeNumber" />
       <item itemvalue="Application.UseMap" />
-      <item itemvalue="TestNG.UnitTestingStringProblem" />
+      <item itemvalue="Application.Factorial" />
       <item itemvalue="TestNG.design" />
+      <item itemvalue="TestNG.UnitTestingStringProblem" />
     </list>
     <recent_temporary>
       <list>
@@ -204,26 +198,26 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="689" y="397" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.960@0.23.1680.960" timestamp="1578862706285" />
-    <state width="1032" height="255" key="GridCell.Tab.0.bottom" timestamp="1579245213188">
+    <state width="1032" height="255" key="GridCell.Tab.0.bottom" timestamp="1579284576857">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910917" />
-    <state width="1032" height="255" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1579245213188" />
-    <state width="1032" height="255" key="GridCell.Tab.0.center" timestamp="1579245213187">
+    <state width="1032" height="255" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1579284576857" />
+    <state width="1032" height="255" key="GridCell.Tab.0.center" timestamp="1579284576856">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1032" height="255" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1579245213187" />
-    <state width="1032" height="255" key="GridCell.Tab.0.left" timestamp="1579245213187">
+    <state width="1032" height="255" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1579284576856" />
+    <state width="1032" height="255" key="GridCell.Tab.0.left" timestamp="1579284576855">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1032" height="255" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1579245213187" />
-    <state width="1032" height="255" key="GridCell.Tab.0.right" timestamp="1579245213187">
+    <state width="1032" height="255" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1579284576855" />
+    <state width="1032" height="255" key="GridCell.Tab.0.right" timestamp="1579284576856">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state width="1638" height="263" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578943910916" />
-    <state width="1032" height="255" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1579245213187" />
+    <state width="1032" height="255" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1579284576856" />
     <state x="519" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1579277287335">
       <screen x="0" y="23" width="1680" height="956" />
     </state>
